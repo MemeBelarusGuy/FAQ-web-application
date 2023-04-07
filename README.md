@@ -12,4 +12,5 @@
 <i>Your mongoDB will contain 3 collections:users,posts,comments</i><br><br>
 <i>Go to browser console and write store.getState() to get info about auth/posts</i><br><br>
 <i>Comments not stores into store due to dynamic querys</i><br><br>
+<i>ALL PICTURES THAT YOU UPLOAD WILL STORE IN BACKEND/UPLOADS</i><br><br>
 <i>To create admin go to your mongoDB user collection and add new field: admin:"true"</i><br><br>
