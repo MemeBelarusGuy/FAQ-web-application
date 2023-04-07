@@ -8,6 +8,12 @@
 <p>7.cd frontend->npm install</p>
 <p>8.cd backend->npm start</p>
 <p>9.cd frontend->npm start</p>
+
+This is how your terminal  look like:
+
+![terminal](https://github.com/MemeBelarusGuy/FAQ-web-application/blob/main/terminal.png)
+
+
 <br><br>
 <i>Your mongoDB will contain 3 collections:users,posts,comments</i><br><br>
 
