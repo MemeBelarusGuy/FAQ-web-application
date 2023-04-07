@@ -18,3 +18,35 @@ Login:
 
 ![login](https://github.com/MemeBelarusGuy/FAQ-web-application/blob/main/login.png)
 
+Register:
+
+![Register](https://github.com/MemeBelarusGuy/FAQ-web-application/blob/main/register.png)
+
+Fresh Posts:
+
+![Fresh Posts](https://github.com/MemeBelarusGuy/FAQ-web-application/blob/main/freshPosts.png)
+
+Popular Posts:
+
+![Popular Posts](https://github.com/MemeBelarusGuy/FAQ-web-application/blob/main/popularPosts.png)
+
+Add Post Image:
+
+![Add Post Image](https://github.com/MemeBelarusGuy/FAQ-web-application/blob/main/addpost_image.png)
+
+Add Post Info:
+
+![Add Post Info](https://github.com/MemeBelarusGuy/FAQ-web-application/blob/main/addpost_info.png)
+
+Full Post:
+
+![Full Post](https://github.com/MemeBelarusGuy/FAQ-web-application/blob/main/fullPost.png)
+
+editComment:
+
+![editComment](https://github.com/MemeBelarusGuy/FAQ-web-application/blob/main/editComment.png)
+
+deleteComment:
+
+![deleteComment](https://github.com/MemeBelarusGuy/FAQ-web-application/blob/main/deleteComment.png)
+
