@@ -1,0 +1,105 @@
+.title {
+  input {
+    font-size: 42px;
+    font-weight: 900;
+  }
+
+  div {
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.upload{
+  padding:10px;
+  font-size:14pt;
+  border-radius: 5px;
+  background:coral;
+  color:white;
+  border:1px solid black;
+  cursor: pointer;
+  transition:all .2s linear;
+  &:hover{
+    box-shadow: 0px 0px 10px black;
+  }
+}
+
+.post{
+  padding:10px;
+  font-size:14pt;
+  border-radius: 5px;
+  transition:all .2s linear;
+  background:coral;
+  color:white;
+  cursor: pointer;
+  &:hover{
+    box-shadow:0px 0px 10px black;
+  }
+}
+
+.removeImage{
+  border:1px solid black;
+  padding:10px;
+  font-size:14pt;
+  background:rgb(173, 16, 16);
+  margin-left:15px;
+  border-radius: 5px;
+  color:white;
+  transition: all .2s linear;
+  cursor: pointer;
+  &:hover{
+    color:rgb(173, 16, 16);
+    background:white;
+    box-shadow: 0px 0px 10px black;
+  }
+}
+
+.cancel{
+  border:1px solid black;
+  padding:10px;
+  color:white;
+  font-size:14pt;
+  border-radius: 5px;
+  background:rgb(173, 16, 16);
+  cursor: pointer;
+  transition:all .2s linear;
+  &:hover{
+    color:rgb(173, 16, 16);
+    background:white;
+    box-shadow: 0px 0px 10px black;
+  }
+}
+
+.image {
+  margin-top:10px;
+  width: 100%;
+}
+
+.tags {
+  margin: 15px 0;
+}
+
+.editor {
+  margin: 30px -30px;
+
+  :global {
+    .cm-s-easymde {
+      border: 0;
+      font-size: 22px;
+    }
+    .editor-toolbar {
+      border: 0;
+      background-color: rgb(0 0 0 / 2%);
+    }
+  }
+}
+
+.buttons {
+  display: flex;
+
+  button {
+    margin-right: 15px;
+  }
+}

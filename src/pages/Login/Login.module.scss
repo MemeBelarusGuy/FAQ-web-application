@@ -1,0 +1,32 @@
+.root {
+  width: 400px;
+  padding: 50px;
+  border: 1px solid #dedede;
+  margin: 50px auto;
+}
+
+.field {
+  margin-bottom: 20px !important;
+}
+
+.title {
+  text-align: center !important;
+  font-weight: bold !important;
+  margin-bottom: 30px !important;
+}
+
+.enter{
+  background:coral;
+  color:white;
+  border:1px solid black;
+  font-size:16pt;
+  margin:0px auto;
+  display:flex;
+  padding:5px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .2s linear;
+  &:hover{
+    box-shadow: 0px 0px 10px black;
+  }
+}

@@ -1,0 +1,99 @@
+$height: 50px;
+
+.comment {
+    border: 1px solid black;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background: white;
+    position: relative;
+}
+
+.avatar {
+    width: 80px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.username {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    font-size: 16pt;
+}
+
+.text {
+    position: absolute;
+    font-size: 18px;
+    width: 90%;
+    height: 55px;
+    left: 100px;
+    top: 40px;
+    overflow: auto;
+}
+
+.postedAt {
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    color: grey;
+    font-size: 14pt;
+}
+
+.editButtons {
+    position: absolute;
+    right: 15px;
+    top: 0px;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    opacity: 1;
+    transition: all 0.15s ease-in-out;
+}
+
+.edit {
+    position: absolute;
+    font-size: 18px;
+    width: 90%;
+    height: 55px;
+    left: 100px;
+    top: 40px;
+    overflow: auto;
+    opacity: 0;
+}
+
+.save,
+.cancel {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    z-index: 10;
+    opacity: 0;
+}
+.save{
+    font-size: 14px;
+    background: coral;
+    color: white;
+    border-radius: 10px;
+    transition: all .2s linear;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0px 0px 10px black;
+    }
+}
+.cancel {
+    margin-left: 5px;
+    font-size: 14px;
+    border: 1px solid black;
+    background: rgb(173, 16, 16);
+    border-radius: 10px;
+    color: white;
+    transition: all .2s linear;
+    cursor: pointer;
+    &:hover {
+        color: rgb(173, 16, 16);
+        background: white;
+        box-shadow: 0px 0px 10px black;
+    }
+}
