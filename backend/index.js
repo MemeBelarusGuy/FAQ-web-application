@@ -11,7 +11,7 @@ import { login, getMe, register } from "./controllers/UserController.js"
 import { createPost, deletePost, getAll, getLastTags, getOne, updatePost } from "./controllers/PostController.js"
 import { createComment, deleteComment, getPostComments, updateComment } from "./controllers/CommentsController.js"
 
-const dbURL='mongodb+srv://memeguy:Wert2yh8g@kursachdb.0bh2ytq.mongodb.net/blog?retryWrites=true&w=majority';
+const dbURL='HERE YOUR MONGODB URL';
 mongoose.connect(dbURL)
     .then(() => { console.log("connected to mongodb") })
     .catch((error) => { console.log(error) });
