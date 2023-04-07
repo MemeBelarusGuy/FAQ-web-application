@@ -10,6 +10,12 @@
 <p>9.cd frontend->npm start</p>
 <br><br>
 <i>Your mongoDB will contain 3 collections:users,posts,comments</i><br><br>
+
+This is how your mongoDB look like:
+
+![login](https://github.com/MemeBelarusGuy/FAQ-web-application/blob/main/mongoDB.png)
+
+
 <i>Go to browser console and write store.getState() to get info about auth/posts</i><br><br>
 <i>Comments not stores into store due to dynamic querys</i><br><br>
 <i>ALL PICTURES THAT YOU UPLOAD WILL STORE IN BACKEND/UPLOADS</i><br><br>
