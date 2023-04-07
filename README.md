@@ -4,7 +4,7 @@
 <p>3.Download main branch.Then insert backend folder into your backend folder of whole project.</p>
 <p>4.Download master branch.Then move all files and folders into your frontend folder of whole project.</p>
 <p>5.cd backend->npm install</p>
-<p>6.BEFORE RUN PROJECT CREATE MONGODB AND SET URL INTO dbURL</p>
+<p>6.BEFORE RUN PROJECT CREATE MONGODB AND SET URL INTO dbURL(backend->index.js)</p>
 <p>7.cd frontend->npm install</p>
 <p>8.cd backend->npm start</p>
 <p>9.cd frontend->npm start</p>
