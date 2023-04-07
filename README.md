@@ -14,4 +14,7 @@
 <i>Comments not stores into store due to dynamic querys</i><br><br>
 <i>ALL PICTURES THAT YOU UPLOAD WILL STORE IN BACKEND/UPLOADS</i><br><br>
 <i>To create admin go to your mongoDB user collection and add new field: admin:"true"</i><br><br>
+Login:
+
 ![login](https://github.com/MemeBelarusGuy/FAQ-web-application/blob/main/login.png)
+
