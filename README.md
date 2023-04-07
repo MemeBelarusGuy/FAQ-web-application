@@ -1,6 +1,6 @@
 <b>How to run project:</b>
 <p>1.Create empty folder.</p>
-<p>2.Create 2 empty folders:backend and frontend.</p>
+<p>2.There create 2 empty folders:backend and frontend.</p>
 <p>3.Download main branch.Then insert backend folder into your backend folder of whole project.</p>
 <p>4.Download master branch.Then move all files folders into your frontend folder of whole project.</p>
 <p>5.cd backend->npm install</p>
